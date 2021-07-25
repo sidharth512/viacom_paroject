@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="viacom(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="viacome_TaseCases.TC_LoginTest_001">
+        <methods>
+          <include name="teardown"/>
+          <include name="Setting"/>
+          <include name="enterurl"/>
+          <include name="TaskPage"/>
+          <include name="logout"/>
+          <include name="setup"/>
+          <include name="CreatCustomer"/>
+        </methods>
+      </class> <!-- viacome_TaseCases.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- viacom(failed) -->
+</suite> <!-- Failed suite [Suite] -->
